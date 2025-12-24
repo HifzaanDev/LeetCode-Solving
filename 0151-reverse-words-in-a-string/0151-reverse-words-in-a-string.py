@@ -4,7 +4,15 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        splitArr=s.split()
-        reversedArr=reversed(splitArr)
-        res= " ".join(reversedArr)
-        return res
+        
+        new_list=s.split()
+        n=len(new_list)
+        arr=[]
+        for i in range(n-1,-1,-1):
+            arr.append(new_list[i])
+        answer=" ".join(arr)
+        return answer
+
+
+
+        
