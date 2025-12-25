@@ -5,17 +5,21 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        l=0
-        r=len(nums)-1
-        
+        hash1={}
         for i in range(len(nums)):
-            l=i
-            r=len(nums)-1
-            while l<r:
-                if nums[l]+nums[r]==target:
-                    return [l,r]
-                r=r-1
+            if nums[i] in hash1:
+                return [hash1[nums[i]],i]
 
+            else:
+                hash1[target-nums[i]]=i
+
+
+
+
+
+
+
+            
 
 
 
