@@ -9,12 +9,13 @@ class Solution(object):
         hash1={')':'(',']':'[','}':'{'}
         for ch in s:
             if ch in hash1:
-                if stack and hash1[ch]==stack[-1]:
+                if stack==[]:
+                    return False
+                elif hash1[ch]==stack[-1]:
                     stack.pop(-1)
-                elif stack and hash1[ch] != stack[-1]:
+                elif hash1[ch] != stack[-1]:
                     return False
-                elif stack==[]:
-                    return False
+
 
             else:
                 stack.append(ch)
