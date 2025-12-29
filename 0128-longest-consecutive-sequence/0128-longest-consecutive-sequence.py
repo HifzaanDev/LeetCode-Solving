@@ -7,7 +7,7 @@ class Solution(object):
         seen=set(nums)
         max_len=0
         
-        for n in nums:
+        for n in seen:
             
             if n-1 not in seen:
                 length=1
