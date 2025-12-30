@@ -6,13 +6,11 @@ class Solution(object):
         """
         seen=set(nums)
         max_len=0
-        
-        for n in seen:
-            
-            if n-1 not in seen:
+        for ch in seen:
+            if ch-1 not in seen:
                 length=1
-                while n+length in seen:
+                while ch+length in seen:
                     length=length+1
+                max_len=max(length,max_len)
 
-                max_len=max(max_len,length)
         return max_len
