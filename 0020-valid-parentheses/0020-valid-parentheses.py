@@ -6,21 +6,21 @@ class Solution(object):
         """
 
         stack=[]
-        hash1={')':'(',']':'[','}':'{'}
-        for ch in s:
-            if ch in hash1:
+        hash1={')':'(','}':'{',']':'['}
+        for c in s:
+            if c in hash1:
                 if stack==[]:
                     return False
-                elif hash1[ch]==stack[-1]:
+                elif stack[-1]==hash1[c]:
                     stack.pop(-1)
-                elif hash1[ch] != stack[-1]:
+                elif stack[-1] != hash1[c]:
                     return False
-
-
             else:
-                stack.append(ch)
+                stack.append(c)
         if stack==[]:
-            return True
+            return True 
+
         return False
-                
+
+            
 
