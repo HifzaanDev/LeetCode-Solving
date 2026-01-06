@@ -4,24 +4,27 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        n=len(nums)
-        
+        zero_count=0
+        non_zero_prod=1
         prod=1
-        ans=[]
-        
-        for i in range(n):
-            ans.append(prod)
-            prod=prod*nums[i]
-            
-        m=len(ans)
-        newprod=1
-        for i in range(m-1,-1,-1):
-            ans[i]=ans[i]*newprod
-            newprod=newprod*nums[i]
+        final_ans=[]
+        for ch in nums:
+            if ch==0:
+                zero_count=zero_count+1
+                if zero_count>1:
+                    non_zero_prod=0
+                    break
+            elif ch !=0:
+                non_zero_prod=non_zero_prod*ch
+        for char in nums:
+            prod=prod*char
+        for c in nums:
+            if c !=0:
+                ans=prod/c
+                final_ans.append(ans)
+            else:
+                ans=non_zero_prod
+                final_ans.append(ans)
 
-            
-
-        return ans
-
-
+        return final_ans
 
