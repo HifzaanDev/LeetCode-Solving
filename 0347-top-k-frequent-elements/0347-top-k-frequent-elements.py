@@ -6,22 +6,23 @@ class Solution(object):
         :rtype: List[int]
         """
         hash1={}
-        top_k=[]
-        for ch in nums:
-            if ch in hash1:
-                hash1[ch]=hash1[ch]+1
+        max=0
+        curr_big=0
+
+        arr=[]
+        for num in nums:
+            if num in hash1:
+                hash1[num]=hash1[num]+1
             else:
-                hash1[ch]=1
+                hash1[num]=1
         for i in range(k):
-            max_rep=0
-            max_ele=0
-            for c in hash1:
-                if hash1[c]>max_rep:
-                    max_rep=hash1[c]
-                    max_ele=c
+            
+            for ch in hash1:
+                if hash1[ch]>max:
+                    max=hash1[ch]
+                    curr_big=ch
+            del hash1[curr_big]
+            arr.append(curr_big)
+            max=0
 
-            top_k.append(max_ele)
-            del hash1[max_ele]
-        return top_k
-        
-
+        return arr
