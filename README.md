@@ -21,3 +21,15 @@ Feel free to browse through the solutions and see what I've been working on!
 ---
 
 ### **Happy Coding! 💡**
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+<!---LeetCode Topics End-->
