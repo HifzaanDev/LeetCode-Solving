@@ -28,8 +28,29 @@ Feel free to browse through the solutions and see what I've been working on!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0239-sliding-window-maximum](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0239-sliding-window-maximum/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0239-sliding-window-maximum/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0239-sliding-window-maximum/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0239-sliding-window-maximum/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0239-sliding-window-maximum/) | Hard |
+## Range Minimum/Maximum Query
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/HifzaanDev/LeetCode-Solving/tree/main/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
